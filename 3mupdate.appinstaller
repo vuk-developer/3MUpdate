@@ -1,13 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <AppInstaller
-    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    Uri="https://vuk-developer.github.io/3MUpdate/ManifestX.appinstaller"
     Version="1.0.0.0"
-    Uri="https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix">
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 
-    <MainPackage>
-      <Uri>https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix</Uri>
-    </MainPackage>
+    <MainPackage
+        Uri="https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix"
+        Version="0.1.29.0"
+        Publisher="CN=vuk-developer"
+        Name="ManifestX" />
+
     <UpdateSettings>
         <OnLaunch HoursBetweenUpdateChecks="8" ShowPrompt="true" UpdateBlocksActivation="false" />
+        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
     </UpdateSettings>
 
 </AppInstaller>
