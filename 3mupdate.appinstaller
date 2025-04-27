@@ -8,18 +8,11 @@
         Name="ManifestX"
         Publisher="CN=vuk-developer"
         Version="0.1.29.0"
-        Uri="https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix" />
-
-    <UpdateURIs>
-        <UpdateURI>https://vuk-developer.github.io/3MUpdate/3mupdate.appinstaller</UpdateURI>
-    </UpdateURIs>
-
-    <RepairURIs>
-        <RepairURI>https://vuk-developer.github.io/3MUpdate/3mupdate.appinstaller</RepairURI>
-    </RepairURIs>
+        Uri="https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix"
+        ProcessorArchitecture="x64" />
 
     <UpdateSettings>
-        <OnLaunch HoursBetweenUpdateChecks="8" ShowPrompt="true" UpdateBlocksActivation="false"/>
+        <OnLaunch HoursBetweenUpdateChecks="8" ShowPrompt="true" UpdateBlocksActivation="false" />
     </UpdateSettings>
 
 </AppInstaller>
