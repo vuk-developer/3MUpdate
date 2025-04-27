@@ -1,3 +1,13 @@
-<MainPackage>
-  <Uri>https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix</Uri>
-</MainPackage>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    Version="1.0.0.0"
+    Uri="https://tvoj-server.com/YourApp.appinstaller">
+
+    <MainPackage>
+      <Uri>https://vuk-developer.github.io/3MUpdate/ManifestX_0.1.29.0_x64.msix</Uri>
+    </MainPackage>
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="8" ShowPrompt="true" UpdateBlocksActivation="false" />
+    </UpdateSettings>
+
+</AppInstaller>
